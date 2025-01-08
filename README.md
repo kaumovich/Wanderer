@@ -6,13 +6,14 @@ KABARGA is a wireless unibody 40% keyboard.
 ---
 
 ## Main Features:  
-* 42 switches (supports multiple types, see below).  
-* Easily accessible power switch and reset button.  
-* Bluetooth support.  
-* RGB LED underglow.     
-* 4 status LEDs.  
-* Large battery capacity (500–800 mAh depending on the type of switches used).  
-* [ZMK firmware](https://github.com/aroum/zmk-kabarga).  
+* 42 switches (supports multiple types, see below)
+* Easily accessible power switch and reset button 
+* Bluetooth support
+* Per switch RGB LED (CE only)     
+* Hotswap (CE only)
+* 4 status LEDs
+* Large battery capacity (500–800 mAh depending on the type of switches used)
+* [ZMK firmware](https://github.com/aroum/zmk-kabarga)
 
 ---
 
@@ -26,7 +27,7 @@ ZMK firmware configuration with status indicator support is available for downlo
 The standard version with support for multiple switch types, as listed below.  
 
 ### Kabarga CE (Civil Edition)  
-This version adds hot-swap support for KS-27/33 and MX switches, making it more versatile and user-friendly.  
+This version adds per switch RGB and hot-swap support for KS-27/33 and MX switches, making it more versatile and user-friendly.  
 
 ---
 
