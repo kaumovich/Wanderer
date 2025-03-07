@@ -40,3 +40,10 @@ This version adds per switch RGB and hot-swap support for KS-27/33 and MX switch
 * Hi-Tek 725.  
 * Omron B3G-S.  
 * Alps SKCC/SKCM.  
+
+---
+
+## Stand:  
+![Preview](pics/stand.png)  
+
+I also made a stand for vertical keyboard storage on a shelf. You can download the STEP file [here](stand\kabarga_stand.stp). This is a modification of this [project](https://www.thingiverse.com/thing:50544). 
