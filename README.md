@@ -100,7 +100,7 @@ Before starting assembly, read everything on this page. Since Kabarga supports a
 | ------------------------------------------------------------------------------------- | ------------------------- | ------- | ----------------- | ----------- | ------------- |
 | [i-Rocks](https://deskthority.net/wiki/Cherry_MX) [not tested]                        | ?                         | No      | ?                 | ?           | ?             |
 | [Cherry MX](https://deskthority.net/wiki/Cherry_MX)                                   | 3.5                       | Yes     | 1.5               | 1.6         | 1.5           |
-| [SMK 2nd gen](https://deskthority.net/wiki/SMK_second_generation) [not tested]        | 3.5?                      | No      | 1.5               | 1.5?        | 1.6           |
+| [SMK 2nd gen](https://deskthority.net/wiki/SMK_second_generation) [not tested]        | 3.0                       | No      | 1.2               | 1.2         | 1.2?          |
 | [KS-27/33](https://www.gateron.co/products/gateron-low-profile-mechanical-switch-set) | 1.2                       | Yes     | 1.25              | 1.2         | 1.2           |
 | [Futaba MA](https://deskthority.net/wiki/Futaba_MA_series)                            | 3.7-3.8 (4.1?)            | No      | ?                 | 1.2         | 1.4/1.5?      |
 | [Hi-Tek 725](https://deskthority.net/wiki/Hi-Tek_Series_725)                          | 4.19                      | No      | 1.4?              | 1.2         | 1.2/1.4       |
