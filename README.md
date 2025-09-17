@@ -144,6 +144,4 @@ Resistors should be 1kΩ or higher, with the exact value depending on the color 
 
 ### case:
 
-coming soon///
-
-
+coming soon...
