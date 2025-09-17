@@ -3,7 +3,11 @@ Wanderer is a wireless ultra low profile unibody 40% keyboard.
 
 ![Preview]
 ---
-
+When designing this keyboard, I was inspired by projects such as:
+* KABARGA by [aroum](https://github.com/aroum/KABARGA)
+* makefive by [makefive guy](https://github.com/mikeholscher/zmk-config-mikefive)
+*reviang by []()
+---
 ## Main Features:  
 * ultra low profile switches
 * 3x6+3 unibody layout
@@ -24,25 +28,14 @@ P.S. firmwire fully based on KABARGA keyboard firmwire because it works really c
 
 # Assembly Order:
 
-Before starting assembly, read everything on this page. Since Kabarga supports a vast number of build variations, many details need to be explained for each component. Additionally, note that both the plate and bottom case have two sides with different designs—you can choose either during assembly. 
-
 * Solder the diodes.
-* Solder the reset button.
+* Solder the switches.
 * Solder the power switch.
 * Solder the resistors.
+* Solder the reset button
+* Solder the SMD LEDs
 * Solder the MCU.
-* If using hot-swap sockets, solder them at this stage.
-* If using SMD LEDs, solder them at this stage.
-* Clean the PCB from flux residue.
-* Attach the standoffs to the plate. If desired, you can use silicone flat gaskets.
-* If using through-hole LEDs, insert them into the PCB but do not solder them yet.
-* Connect the plate, standoffs, and PCB together.
-* Install the switches into the plate, starting from the corners.
-* If not using hot-swap sockets, solder the switches.
-* If using through-hole LEDs, press them against the plate, solder them, and trim the leads.
 * Attach the battery to the plate using double-sided tape, then solder its leads to the PCB.
-* Screw on the bottom case. If desired, you can use silicone flat gaskets.
-* Attach the rubber feet.
 * Press the reset button twice and flash the bootloader.
 * Press the reset button twice again and flash the firmware.
 
