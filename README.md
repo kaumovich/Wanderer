@@ -6,7 +6,7 @@ Wanderer is a wireless ultra low profile unibody 40% keyboard.
 When designing this keyboard, I was inspired by projects such as:
 * KABARGA by [aroum](https://github.com/aroum/KABARGA)
 * makefive by [makefive guy](https://github.com/mikeholscher/zmk-config-mikefive)
-*reviang by []()
+* reviang by [gtips](https://github.com/gtips/reviung)
 ---
 ## Main Features:  
 * ultra low profile switches
