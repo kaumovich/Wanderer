@@ -55,7 +55,7 @@ Before starting assembly, read everything on this page. Since Kabarga supports a
 | Reset              | EVQP7C01K                  | 
 | MCU                | nice!nano v2               | 
 | Diodes             | 1N4148WS T4 sod-32  42 pcs | 
-| Power switch       | msk12                      | 
+| Power switch       | MSK-12C02                  | 
 | Battery            | 402040 recomended          | 
 | LEDs               | 0603                 4 pcs | 
 | Resistors          | 0603 1-10k           4 pcs | 
@@ -71,30 +71,10 @@ You can use any ProMicro-compatible MCU. Currently, ZMK firmware is available, b
 
 Any SOD-323 diodes can be used. You can solder diodes on either side of the PCB, just make sure to follow the polarity shown in the diagram. However, the distance from the plate to the PCB in KS-27/33 is 1.2 mm, while the height of the diodes is 0.9 mm. This means you need to solder very carefully or place the diodes on the underside of the PCB. If you are not using hot-swap sockets and want to build the thinnest possible version by cutting all leads flush, you will likely prefer to solder the diodes under the plate.
 
-### Power Switches:  
-The MSK-12C02 was only used in the Kabarga CE V1.0. Since the distance from the PCB to the plate in KS-27/33 is 1.2 mm, the BSI-10H, with a thickness of 2.5 mm, didn’t fit. Mounting it on the underside was possible, but it required increasing the standoff height by 1 mm. That’s why we wanted to use the MSK-12C02, but it wasn’t a very reliable switch. Additionally, in later versions, the idea emerged to move the BSI-10H forward for compatibility with a 3D-printed case. Because of this, support for the MSK-12C02 was dropped.
-
-In most cases, the BSI-10H should be soldered under the plate, but for keyboards using the KS-27/33, it must be soldered on the underside of the PCB.
-
-### Battery:  
-X03035, where X is the battery thickness in mm. The recommended battery thickness for the standard build is the standoff height minus 1 mm—it's not good to squeeze the battery between the plate and the bottom. You can always use a thinner battery. The battery should be attached to the plate using double-sided tape.
-
-| Switch             | Battery |
-| ------------------ | ------- |
-| MX                 | 603035  |
-| MX (Hotswap)       | 603035  |
-| KS-27/33           | 503035  |
-| KS-27/33 (Hotswap) | 503035  |
-| Hi-TEK 725         | 603035  |
-| Omron B3G-S        | 603035  |
-| Alps SKCC/SKCM     | 603035  |
-
 ### LEDs:
 ![Preview](pics/LED1_8mm.webp)  
 
 The first three LEDs from the left indicate the battery level and the current BT profile. The rightmost LED signals a lost BT connection. In reality, the LED indicators can show much more, but this will be detailed later. You can use LEDs of the same or different colors, but keep in mind that different colors require different resistors, so balancing brightness across colors may be challenging.
-
-SMD 0603 LEDs are used only for KS-27/33 since through-hole LEDs don’t fit under the plate due to their height. Through-hole LEDs are simply inserted into the holes during assembly. After installing the switches, you can solder the LED leads and trim them. Make sure each LED is properly aligned with the hole in the plate.
 
 ![Preview](pics/led_footprint.png)
 
