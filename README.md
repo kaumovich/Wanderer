@@ -43,16 +43,16 @@ P.S. firmwire fully based on KABARGA keyboard firmwire because it works really c
 
 ## BOM:  
 ### Electronic components:
-| Component          | Kabarga                    | 
-| ------------------ | -------------------------- | 
-| Reset              | EVQP7C01K                  | 
-| MCU                | nice!nano v2               | 
-| Diodes             | 1N4148WS T4 sod-32  42 pcs | 
-| Power switch       | MSK-12C02                  | 
-| Battery            | 402040 recomended          | 
-| LEDs               | 0603                 4 pcs | 
-| Resistors          | 0603 1-10k           4 pcs | 
-| Keyboard switches  | Kailh pg1316        42 pcs | 
+| Component          | Wanderer             | pcs |
+| ------------------ | ---------------------| ----|
+| Reset              | EVQP7C01K            | 1   |
+| MCU                | nice!nano v2         | 1   |
+| Diodes             | 1N4148WS T4          | 42  |
+| Power switch       | MSK-12C02            | 1   |
+| Battery            | 402040 recomended    | 1   |
+| LEDs               | 0603                 | 4   |
+| Resistors          | 0603 1-10k           | 4   |
+| Keyboard switches  | Kailh pg1316         | 42  |
 
 
 ### MCU:
