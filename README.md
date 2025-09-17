@@ -141,29 +141,9 @@ Through-hole LEDs (red on pic) should be soldered so that the rounded part of th
 ### Resistors:
 Resistors should be 1kΩ or higher, with the exact value depending on the color of the LEDs you are using. The maximum brightness of indicator LEDs can be adjusted in the firmware configuration file.
 
-### Underglow RGB LEDs:
-Underglow RGB LEDs are only supported in the Kabarga CE. They consume quite a lot of power, so the battery will last only a few hours. However, you can configure the firmware to activate them only when the keyboard is connected via USB.
 
-### Silicone flat gasket: 
-![Preview](pics/silicone_flat_gasket.webp)  
+### case:
 
-You can use silicone flat gaskets for vibration isolation. The gaskets can be placed on one or both sides of the brass standoff. Just remember to use shorter standoffs to maintain the same height. In some cases, these gaskets provide quite good results.
+coming soon///
 
-### Screws:
-![Preview](pics/screws.webp)  
 
-### Bumpons:
-There are special round recesses on the bottom case for installing bumpons. You can use round bumpons with a diameter of 8 mm or smaller. The required thickness depends on the build variant. For the Standard build, the bumpons should lift the 0.8 mm screw heads off the table—1.5+ mm works well. For the Flex build, additional clearance is needed to allow the keyboard to flex without hitting the table. In this case, 2.5+ mm is recommended.
-
-### 3D-printed case:
-![Preview](pics/case_top.jpg)  
-![Preview](pics/case_bottom.jpg)  
-
-The 3D-printed case is currently in development. Since there are many different versions of the Kabarga, each requiring a separate case, designing the 3D models takes a significant amount of time. Please be patient.
-
----
-  
-## Stand:  
-![Preview](pics/stand.png)  
-
-I also made a stand for vertical keyboard storage on a shelf. You can download the STEP file [here](stand\kabarga_stand.stp). This is a modification of this [project](https://www.thingiverse.com/thing:50544). 
