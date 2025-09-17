@@ -1,8 +1,7 @@
 # Wanderer
 Wanderer is a wireless ultra low profile unibody 40% keyboard.  
 
-![Preview](pics/kabarga_v1.webp)  
-
+![Preview]
 ---
 
 ## Main Features:  
@@ -10,13 +9,15 @@ Wanderer is a wireless ultra low profile unibody 40% keyboard.
 * 3x6+3 unibody layout
 * Bluetooth support
 * 4 status LEDs
-* Large battery capacity (500–800 mAh depending on the type of switches used)
-* [ZMK firmware](https://github.com/aroum/zmk-kabarga)
+* Large battery capacity (pcb degsined for 402040 400mah battery)
+* [ZMK firmware]
 
 ---
 
 ## ZMK Firmware  
-ZMK firmware configuration with status indicator support is available for download [here](https://github.com/aroum/zmk-kabarga).  
+ZMK firmware [here](https://github.com/Kaumovich/zmk-wanderer).  
+
+P.S. firmwire fully based on KABARGA keyboard firmwire because it works really cool and i'm lazy
 
 ---
 
@@ -49,60 +50,21 @@ Before starting assembly, read everything on this page. Since Kabarga supports a
 
 ## BOM:  
 ### Electronic components:
-| Component          | Kabarga                    | Kabarga CE             | Note |
-| ------------------ | -------------------------- | ---------------------- | ---- |
-| Reset              | EVQP7C01K                  | EVQP7C01K              |      |
-| MCU                | nice!nano v2               | nice!nano v2           |      |
-| Diodes             | 1N4148WS T4         42 pcs | 1N4148WS T4     42 pcs |      |
-| Power switch       | BSI-10H                    | BSI-10H/MSK-12C02      |      |
-| Battery            | X03035                     | X03035                 |      |
-| LEDs               | 1.8mm                4 pcs | 0603 / 1.8mm     4 pcs |      |
-| Resistors          | 0603 1-10k           4 pcs | 0603 1-10k       4 pcs |      |
-| Underglow RGB LEDs | Not supported              | YS-SK6812MINI-E 42 pcs |      |
-| Keyboard switches  | Аny supported type  42 pcs | MX/KS-33        42 pcs |      |
-| Hotswap sockets    | Not supported              | MX/KS-33        42 pcs |      |
+| Component          | Kabarga                    | 
+| ------------------ | -------------------------- | 
+| Reset              | EVQP7C01K                  | 
+| MCU                | nice!nano v2               | 
+| Diodes             | 1N4148WS T4 sod-32  42 pcs | 
+| Power switch       | msk12                      | 
+| Battery            | 402040 recomended          | 
+| LEDs               | 0603                 4 pcs | 
+| Resistors          | 0603 1-10k           4 pcs | 
+| Keyboard switches  | Kailh pg1316        42 pcs | 
 
-### Mechanical parts:
-| Component            | Standard           | Flex              | Note     |
-| -------------------- | ------------------ | ----------------- | -------- |
-| PCB                  | Any                | Kabarga v2+ or CE |          |
-| Top                  | Any                | Any               |          |
-| Bottom               | Standard           | Flex              |          |
-| Spacers              | m2          12 pcs | m2          8 pcs |          |
-| Screws               | m2x4 T5     24 pcs | m2x4 T5    16 pcs |          |
-| Silicone flat gasket | 2x5x1mm  12-24 pcs | 2x5x1mm  8-16 pcs | Optional |
-| Bumpons              | 8x1.5+mm    10 pcs | 8x2.5+mm   10 pcs |          |
-
-
-### Reset: 
-The EVQP7C01K has a thickness of 1.5 mm, so when using KS-27/33, the reset button must be soldered on the underside of the PCB. In all other cases, it can be soldered on either side, but soldering it under the plate is recommended.
 
 ### MCU:
 You can use any ProMicro-compatible MCU. Currently, ZMK firmware is available, but you can port QMK yourself if needed.
 
-The standard Kabarga PCB is essentially reversible, meaning it can be assembled from either side. However, it is recommended to assemble it with the MCU facing downward, under the PCB.
-
-The table shows the recommended installation method, but in some versions, you can mount the MCU on the underside of the PCB. If you're unsure about the installation, you can use a multimeter to check the position of the GND pads by placing one probe on the "-" pad for the battery.
-
-| Variant    | Mounting Side               |
-| ---------- | --------------------------- |
-| Kabarga    | Facing up under the PCB     |
-| Kabarga CE | Facing down under the plate |
-
-### Spacers:
-If you are not using hot-swap, you can trim the switch pins and make the keyboard lower by using shorter spacers. You can also use thinner PCBs, such as 1.2 mm, gaining an additional 0.4 mm.  
-
-If you are building a flex variant, you need to use standoffs that are 1-2 mm longer to allow space for the PCB to move freely.
-
-| Switch             | Height |
-| ------------------ | ------ |
-| MX                 | 8      |
-| MX (Hotswap)       | 8      |
-| KS-27/33           | 6      |
-| KS-27/33 (Hotswap) | 6      |
-| Hi-TEK 725         | 8      |
-| Omron B3G-S        | 7      |
-| Alps SKCC/SKCM     | 7      |
 
 ### Diodes:
 ![Preview](pics/diodes.png)  
