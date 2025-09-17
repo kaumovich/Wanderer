@@ -1,16 +1,14 @@
-# KABARGA  
-KABARGA is a wireless unibody 40% keyboard.  
+# Wanderer
+Wanderer is a wireless ultra low profile unibody 40% keyboard.  
 
 ![Preview](pics/kabarga_v1.webp)  
 
 ---
 
 ## Main Features:  
-* 42 switches (supports multiple types, see here)
-* Easily accessible power switch and reset button 
+* ultra low profile switches
+* 3x6+3 unibody layout
 * Bluetooth support
-* Per switch RGB LED (CE only)     
-* Hotswap (CE only)
 * 4 status LEDs
 * Large battery capacity (500–800 mAh depending on the type of switches used)
 * [ZMK firmware](https://github.com/aroum/zmk-kabarga)
@@ -22,26 +20,6 @@ ZMK firmware configuration with status indicator support is available for downlo
 
 ---
 
-## Variants:  
-### Kabarga  
-The standard variants with support for multiple switch types:
-
-* i-Rocks
-* Cherry MX  
-* SMK 2nd gen
-* KS-27/33
-* Futaba MA
-* Hi-Tek 725  
-* Omron B3G-S 
-* Alps SKCC/SKCM  
-
-### Kabarga CE (Civil Edition)  
-This variants adds per switch RGB and hot-swap support for KS-27/33 and MX switches, making it more versatile and user-friendly.  
-
-### Flex  
-This variant is just a modified bottom case that works with any PCB and plate for Kabarga V2+ and Kabarga CE.
-
----
 
 # Assembly Order:
 
@@ -95,17 +73,6 @@ Before starting assembly, read everything on this page. Since Kabarga supports a
 | Silicone flat gasket | 2x5x1mm  12-24 pcs | 2x5x1mm  8-16 pcs | Optional |
 | Bumpons              | 8x1.5+mm    10 pcs | 8x2.5+mm   10 pcs |          |
 
- ### Supported Switches:  
-| Switches                                                                              | PCB to plate distance(mm) | Hotswap | Plate (Recommend) | Plate (FR4) | Plate (Laser) |
-| ------------------------------------------------------------------------------------- | ------------------------- | ------- | ----------------- | ----------- | ------------- |
-| [i-Rocks](https://deskthority.net/wiki/Cherry_MX) [not tested]                        | ?                         | No      | ?                 | ?           | ?             |
-| [Cherry MX](https://deskthority.net/wiki/Cherry_MX)                                   | 3.5                       | Yes     | 1.5               | 1.6         | 1.5           |
-| [SMK 2nd gen](https://deskthority.net/wiki/SMK_second_generation) [not tested]        | 3.0                       | No      | 1.2               | 1.2         | 1.2?          |
-| [KS-27/33](https://www.gateron.co/products/gateron-low-profile-mechanical-switch-set) | 1.2                       | Yes     | 1.25              | 1.2         | 1.2           |
-| [Futaba MA](https://deskthority.net/wiki/Futaba_MA_series)                            | 3.7-3.8 (4.1?)            | No      | ?                 | 1.2         | 1.4/1.5?      |
-| [Hi-Tek 725](https://deskthority.net/wiki/Hi-Tek_Series_725)                          | 4.19                      | No      | 1.4?              | 1.2         | 1.2/1.4       |
-| [Omron B3G-S](https://deskthority.net/wiki/Omron_B3G-S_series)                        | 3.3                       | No      | 1.2               | 1.2         | 1.0           |
-| [Alps SKCC/SKCM](https://deskthority.net/wiki/Category:Alps_SKCL/SKCM_series)         | 3.3                       | No      | 1.2               | 1.2         | 1.2           |
 
 ### Reset: 
 The EVQP7C01K has a thickness of 1.5 mm, so when using KS-27/33, the reset button must be soldered on the underside of the PCB. In all other cases, it can be soldered on either side, but soldering it under the plate is recommended.
